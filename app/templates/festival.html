@@ -1,0 +1,10 @@
+<ion-view view-title="专题">
+	<ion-content has-subheader="false">
+		<div class="list">
+			<a class="item item-thumbnail-left" href="{{card.url}}" ng-repeat="card in cards">
+		        <img ng-src="{{card.imgUrl}}" alt="">
+		        <label for="" class="festivalWord">{{card.title}}</label>
+	        </a>
+		</div>
+	</ion-content>
+</ion-view>

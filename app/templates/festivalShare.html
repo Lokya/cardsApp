@@ -1,0 +1,13 @@
+<ion-view view-title="{{detailTitle}}">
+	<ion-nav-buttons side="left">
+		<a href="{{detailBackUrl}}" class="button button-icon icon ion-chevron-left"></a>
+	</ion-nav-buttons>	
+	<ion-content has-subheader="false">
+		<div class="row everyCardBox">
+			<img src="{{detailUrl}}" alt="">
+		</div>	
+		<div class="row" style="margin-top: 20%">
+			<button class="button button-full button-positive" ng-click="shareFriends()">分享</button>
+		</div>
+	</ion-content>
+</ion-view>

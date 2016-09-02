@@ -1,0 +1,6 @@
+{
+	"DragonBoatFestival" : [{"imgUrl":"img/cards/gragonBoatFestival1.jpg","title":"小学课本端午节贺卡","cardshare":"#/cardShare?id=DragonBoatFestival"}],
+	"Birthday": [{"imgUrl":"img/cards/birthday1.jpg","title":"气球生日快乐贺卡","cardshare":"#/cardShare?id=Birthday"}],
+	"NewYear": [{"imgUrl":"img/cards/newYear1.jpg","title":"清爽版新年贺卡","cardshare":"#/cardShare?id=NewYear"}],
+	"MidAutumnFestival": [{"imgUrl":"img/cards/midAutumnFestival1.jpg","title":"江南水乡中秋贺卡","cardshare":"#/cardShare?id=MidAutumnFestival"}]
+}

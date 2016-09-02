@@ -1,0 +1,77 @@
+<ion-view view-title="个人中心">
+	<ion-nav-buttons side="right">
+    	<button menu-toggle="right" class="button button-icon icon ion-ios-gear-outline" ng-click="rightMenu()"></button>
+	</ion-nav-buttons>
+	<ion-side-menus>
+		<ion-pane ion-side-menu-content>
+			<!-- 个人中心页面内容 -->
+			<ion-content has-subheader="false">	
+				<div class="userBack">
+					<div class="row">
+						<div class="col col-33 col-offset-33">
+							<img src="img/userNewImg.jpg" alt="">
+						</div>						
+					</div>
+					<div class="row">
+						<div class="col-offset-33 col-33">
+							<label class="user_Name" for="">用户名：Lokya</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col"></div>
+						<div class="col">
+							<a href="#/login" class="button button-block button-small  button-outline button-assertive">
+								登录
+							</a>
+						</div>
+						<div class="col">
+							<a href="#/register" class="button button-block button-small  button-outline button-assertive">
+								注册
+							</a>
+						</div>
+						<div class="col"></div>
+					</div>
+				</div>				
+				<div class="list">
+					<a class="item item-icon-left" href="#/messageList">
+					    <i class="icon ion-ios-chatbubble-outline"></i>
+					    消息中心
+					    <span class="badge badge-positive">1</span>
+				  	</a>
+				  	<a class="item item-icon-left item-icon-right" href="#/myCollection">
+					    <i class="icon ion-ios-heart-outline"></i>
+					    我收藏的贺卡
+					    <i class="icon ion-ios-arrow-forward"></i>
+					</a>
+					<div class="item item-divider"></div>
+					<a class="item item-icon-left" ng-click="recommendFriends()">
+					    <i class="icon ion-ios-people-outline"></i>
+					    推荐给朋友
+					</a>
+					<a class="item item-icon-left" href="#/opinion">
+					    <i class="icon ion-ios-compose-outline"></i>
+					    意见反馈
+					</a>
+				</div>
+							
+			</ion-content>
+			<!-- 个人中心页面内容-->
+		</ion-pane>
+		<!-- 右侧菜单部分 -->
+		<ion-side-menu side="right">
+			<header class="bar bar-header bar-stable">
+			</header>
+			<ion-content class="has-header">
+				<ion-list>
+					<ion-item nav-clear menu-close href="#/userDetail">个人资料</ion-item>					
+					<ion-item nav-clear menu-close href="#/aboutUs">关于我们</ion-item>
+				</ion-list>
+				<div class="rightMenuBack">
+					<button class="button button-full button-assertive">退出登录</button>
+				</div>
+			</ion-content>
+		</ion-side-menu>
+	</ion-side-menus>
+</ion-view>
+
+

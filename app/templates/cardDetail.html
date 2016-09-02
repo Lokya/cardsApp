@@ -1,0 +1,13 @@
+<ion-view view-title="卡片">
+	<ion-nav-buttons side="left">
+    	<a href="/#/tab/cards" class="button button-icon icon ion-chevron-left"></a>
+	</ion-nav-buttons>
+	<ion-content has-subheader="false">
+		<div class="list">
+			<a href="{{card.cardshare}}" class="item item-cards" ng-repeat="card in cards">
+				<img src="{{card.imgUrl}}" alt="">
+				<label for="" class="cardName">{{card.title}}</label>
+			</a>
+		</div>
+	</ion-content>
+</ion-view>

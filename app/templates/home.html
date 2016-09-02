@@ -1,0 +1,37 @@
+<ion-view view-title="首页">	
+	<ion-content has-subheader="false">		
+		<figure id="sample_slider" class="swipslider" ng-model="banner">
+			<ul class="sw-slides" style="transition-duration: 500ms; transition-timing-function: ease-out; transition-property: all;padding-left: 0px;">
+				<li class="sw-slide">
+					<img src="img/banner/img1.jpg" alt="......" width="100%">
+				</li>
+				<li class="sw-slide">
+					<img src="img/banner/img2.jpg" alt="......" width="100%">
+				</li>
+				<li class="sw-slide">
+					<img src="img/banner/img3.jpg" alt="......" width="100%">
+				</li>					
+			</ul>
+		</figure>	
+		<div class="row homeBox noPadding">
+			<div class="col noPadding box_part1" ng-click="box_click1()">
+				<label for="" class="box_word1">Top10的贺卡</label>
+			</div>
+			<div class="col noPadding">
+				<div class="row noPadding">
+					<div class="col noPadding box_part2" ng-click="box_click2()">
+						<label for="" class="box_word2">今日更新</label>
+					</div>
+				</div>
+				<div class="row noPadding rowPlusrow">
+					<div class="col box_part3 noPadding " ng-click="box_click3()">
+						<label for="" class="box_word3">热门贺卡</label>
+					</div>
+					<div class="col box_part4 noPadding" ng-click="box_click4()">
+						<label for="" class="box_word4">热门专题</label>
+					</div>
+				</div>
+			</div>
+		</div>			 	
+	</ion-content>
+</ion-view>

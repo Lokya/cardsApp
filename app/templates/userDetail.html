@@ -1,0 +1,72 @@
+<ion-view view-title="我的资料">
+	<ion-nav-buttons side="left">
+		<a href="/#/tab/user" class="button button-icon icon ion-chevron-left"></a>
+	</ion-nav-buttons>
+	<ion-nav-buttons side="right">
+		<a href="#/changeUserDetail" class="button button-icon icon ion-ios-compose-outline"></a>
+	</ion-nav-buttons>
+	<ion-content has-subheader="false">
+		<div class="list">
+			<div class="item">
+				<div class="row">
+					<div class="col-33 userTitle">
+						手机号：
+					</div>
+					<div class="col-70">
+						{{user.phone}}
+					</div>
+				</div>				
+			</div>
+			<div class="item">
+				<div class="row">
+					<div class="col-33 userTitle">
+						昵称：
+					</div>
+					<div class="col-60">
+						{{user.nickname}}
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="row">
+					<div class="col-33 userTitle">
+						性别：
+					</div>
+					<div class="col-60">
+						{{user.sex}}
+					</div>
+				</div>
+			</div>	
+			<div class="item">
+				<div class="row">
+					<div class="col-33 userTitle">
+						出生日期：
+					</div>
+					<div class="col-60">
+						{{user.birthday}}
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="row">
+					<div class="col-33 userTitle">
+						个人爱好：
+					</div>
+					<div class="col-60">
+						{{user.favourate}}
+					</div>
+				</div>
+			</div>	
+			<div class="item">
+				<div class="row">
+					<div class="col-33 userTitle">
+						是否首次使用：
+					</div>
+					<div class="col-60">
+						{{user.isFirstUser}}
+					</div>
+				</div>
+			</div>					
+		</div>
+	</ion-content>
+</ion-view>
